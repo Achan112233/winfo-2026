@@ -18,12 +18,12 @@ Overview
 This project implements a live location-sharing and alert system. The backend uses Next.js API routes and MongoDB to persist users, friends, chats, and live location events. The frontend visualizes user state with an animated character and provides controls for sharing location and managing trusted contacts.
 
 API routes (work-in-progress)
-- `GET /getcharacter` — load character / user visual state
-- `GET /searchfriend/:query` — search users to add as friends
-- `POST /createchat` — create a new chat
-- `GET /getchats` — list chats for a user
-- `GET /getlocation` — fetch latest shared location for a user
-- `POST /sendlocation` — send current location to a friend
+- `GET /character` — load character / user visual state
+- `GET /friend/?query` — search users to add as friends
+- `POST /chat` — create a new chat
+- `GET /chats` — list chats for a user
+- `GET /location` — fetch latest shared location for a user
+- `POST /location` — send current location to a friend
 
 Key files
 - Authentication route: [winfo/app/api/auth/[...all]/route.ts](winfo/app/api/auth/[...all]/route.ts#L1)
