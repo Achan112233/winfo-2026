@@ -12,6 +12,7 @@ Features
 - P1: Loud noise triggers voice recording
 - P2: Calls contacts if phone shakes
 - P2: Character moves when location tracking is on (animated UI)
+- P2: Random username generation for anonymity 
 
 Overview
 
